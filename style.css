@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900display=swap');
-
+@media only screen and (max-device-width: 300px) {
+     .calculadora { width:200px; }
+    }
 
 * {
     margin: 0;
@@ -88,6 +90,4 @@ footer {
     border-bottom: 2px solid gray;
 }
 
-@media only screen and (max-device-width: 400px) {
-     .calculadora { width:300px; }
-    }
+
