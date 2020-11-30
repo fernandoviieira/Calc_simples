@@ -87,3 +87,7 @@ footer {
     transform: translateY(190px);
     border-bottom: 2px solid gray;
 }
+
+@media only screen and (max-device-width: 400px) {
+     .calculadora { width:300px; }
+    }
