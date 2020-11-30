@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+header{
+    position: absolute;
+    transform: translateY(-200px);
+    border-bottom: 2px solid gray;
+}
+
+
+.calculadora {
+   position: relative;
+   display: grid;
+   
+}
+
+.calculadora .value {
+    grid-column: span 4;
+    height: 50px;
+    margin-bottom: 5px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    font-size: 18px;
+}    
+
+form span {
+    border: 15px;
+    display: grid;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background: #0c2835;
+    place-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+form span:active{
+    background: #74ff3b;
+    color: #111;
+}
+
+form span.limpar {
+    grid-column: span 2;
+    width: 120px;
+    background: #ff3077;
+}
+form span.somar {
+    grid-row: span 2;
+    height: 120px;
+}
+form span.igual {
+    background: #03b1ff;
+}
+
+form span:hover{
+    cursor: pointer;
+    background: #12455e;
+}
+
+form span.limpar:hover {
+    background: #c71050;
+}
+
+form span.igual:hover {
+    background: #24779e;
+}
+
+footer {
+    position: absolute;
+    transform: translateY(190px);
+    border-bottom: 2px solid gray;
+}
