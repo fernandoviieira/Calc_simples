@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900display=swap');
-@media only screen and (max-device-width: 300px) {
-     body { width:200px; }
-    }
+@media screen and (max-width: 200px) {
+    header{
+        display: flex;
+        width: auto;
+    }  
+}
 
 * {
     margin: 0;
